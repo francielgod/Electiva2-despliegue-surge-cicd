@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integración Continua con Surge</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f0f4f8;
+      color: #102a43;
+    }
+    .card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      max-width: 480px;
+    }
+    h1 { color: #0b69a3; margin-top: 0; }
+    .badge {
+      background: #dceefb;
+      color: #0b69a3;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Despliegue Exitoso!</h1>
+    <p>Página desplegada automáticamente usando <strong>GitHub Actions</strong> y <strong>Surge.sh</strong>.</p>
+    <span class="badge">CI/CD Activo</span>
+  </div>
+</body>
+</html>
